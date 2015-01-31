@@ -1,0 +1,100 @@
+header{
+	height: 64px;
+	background-color: #fff;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	padding-bottom: 50px;
+}
+#logo{
+	width: 50px;
+	margin: 8px;
+}
+header #logo{
+	float: left;
+}
+.color{
+	display: block;
+	height: 4px;
+	position:absolute;
+	top: 63px;
+	width:100%;
+	background-color: #2a6496;
+
+}
+#menu{
+	float: left;
+	padding: 17px 40px 0 0;
+}
+#container{
+	padding: 150px 20px 20px 20px;
+	overflow: hidden;
+}
+.shadow {
+    background: url(img/top-shadow.png) repeat-x;
+    height: 35px;
+    position: fixed;
+    top: 66px;
+    width: 100%;
+}
+/*styles for experiment.html*/
+.experiment {
+    cursor: pointer;
+    outline: 1px lightgray solid;
+    padding: 5px;
+    margin: 5px;
+}
+/*styles for home.html*/
+#job{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 300px;
+	background: url(img/re-invent.jpg);
+	background-size: cover;
+}
+#intro{
+	margin: 50px;
+	font-size: 16px;
+}
+#section2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+}
+#box1{
+	height: 100px;
+	width: 100px;
+	background: url(img/github.png);
+	background-size: cover;
+	margin: 3px;
+	display: inline-block;
+}
+#box2{
+	height: 100px;
+	width: 100px;
+	background: url(img/linkedin.png);
+	background-size: cover;
+	margin: 3px;
+	display: inline-block;
+}
+#box3{
+	height: 100px;
+	width: 100px;
+	background: url(img/mail.png);
+	background-size: cover;
+	margin: 3px;
+	display: inline-block;
+}
+#box4{
+	height: 100px;
+	width: 100px;
+	background: url(img/twitter.png);
+	background-size: cover;
+	margin: 3px;
+	display: inline-block;
+}
+
+
+
+

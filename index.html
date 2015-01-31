@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="website">
+<head>
+	<title> Jamie Titensor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+</head>
+<body ng-controller="MainCtrl">
+<header>
+	<!-- <h1 id="logo">
+	<a ng-click="setRoute('home')" id="logo"></a></h1> -->
+	<a ng-click="setRoute('home')"><img src="img/pi-m.png" id="logo"></a>
+	<div id="menu">
+		<a ng-click="setRoute('home')" class="btn">Home</a>
+		<a href="/blog" class="btn">Blog</a>
+		<a ng-click="setRoute('experiments')" class="btn">Experiments</a>
+	</div>
+	<div class="color"></div>
+	<div class="clear"></div>
+</header>
+	
+	<div id="container">
+		<div class="shadow"></div>
+		<div ng-view></div>
+	</div>
+
+
+
+
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+
+	<script type="text/javascript" src="js/website.js"></script>
+
+</body>
+</html>
